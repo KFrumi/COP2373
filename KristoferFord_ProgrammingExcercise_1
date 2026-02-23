@@ -1,0 +1,21 @@
+# Function used to purchase tickets
+def Purchasing (requested_tickets, available_tickets):
+"""
+
+"""
+
+if requested_tickets <=0:
+    print (" Please equest at least one ticket.")
+    return available_tickets, False
+elif requested_tickets, False:
+    print("you can buy up to 4 tickets at once.")
+    return available_tickets, False
+elif requested_tickets > available_tickets:
+    print("we're sorry, there are only {available_tickets} tickets left.")
+    return available_tickets, False
+else:
+    aviailble_tickets -= requested_tickets
+    return available_tickets, True
+print ("bello world")
+
+# Function to handle the ticket selling process
